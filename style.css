@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+nav ul li{
+    list-style-type: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 50px;
+}
+
+.sidebar{
+    background-color: black;
+   color: rgb(255, 255, 255);
+    padding-inline-start: 20px;
+    margin: 0px;
+    transition: transform 0.5s ease-in vertical 0s;
+    
+    
+    
+    
+}
+.sidebar nav{
+    padding: 24px;
+    
+}
+
+.sidebar .navfont a{
+    text-decoration: none;
+}
+
+.navfont {
+    word-spacing: 85px;
+    text-align: center;
+  
+}
+
+/* #home1{transition: transform 0.2s ease 0s;} */
+/* .intro1{transition: transform 0.2s ease 0s;} */
+/* .resume1{transition: transform 0.2s ease 0s;} */
+/* .contact1{transition: transform 0.2s ease 0s;} */
+
+
+/* #home1:hover{ transform: translateY(-5px);}  */
+/* .intro1:hover{transform: translateY(-5px);}  */
+/* .resume1:hover{transform: translateY(-5px);}  */
+/* .contact1:hover{transform: translateY(-5px);} */
+
+
+.sidebar .navfont a{
+    color: white;
+}
+
+.sidebar nav li{
+    font-size: 20px;
+}
+
+.container{
+    display:contents;
+    
+}
+
+.infoContainer {
+    /* background-color: rgb(240, 143, 16); */
+    height: 30vw;
+    width: 90vw;
+    margin: 0px;
+    display: flexbox;
+    justify-content: space-around;
+}
+
+.name{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 394px;
+    font-size: 40px;
+    color: aliceblue;
+    text-shadow: 3px 5px black;
+
+}
+.hello{
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 535px;
+    color: aliceblue;
+    text-shadow: 3px 5px black;
+}
+.about{
+    font-size: 35px;
+    margin-left: 490px;
+    color: cornsilk;
+    text-shadow: 3px 5px black;
+
+/* .devInfo {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    font-size: 50px;
+} */
+
+/* #cv  {
+    margin: 26px;
+    padding: 7px;
+}
+
+#contact{
+    margin: 0px;
+    padding: 8px;
+} */
+
+
+}
+.devPic{
+   
+    margin-left: 250px;
+    margin-top: -540px; 
+    
+}
+
+.infoContainer{
+    margin-top: 150px;
+    margin-left: 400px;
+}
+
+.sidebar navfont a{
+    text-decoration: none;
+}
+
+
+.contact main  {
+     
+        margin-top: -156px;
+        margin-left: 265px;
+        padding: 351px;
+        display: flex;
+    
+}
+
+.contactform h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.contactform{
+    width: 357px;
+    text-align: justify;
+}
+
+/* .contactform form{
+    text-align: center;
+    padding-top: 70px;
+    
+}
+.contactform form input{
+    width: 200px;
+} */
+
+.main {
+    padding: 20px;
+    background-color: darkorchid;
+    margin: 15px;
+}
+
+.devPic img {
+    width: 450px;
+}
+
+.image .devPic img{
+    width: 450px;
+}
+
+.infoContainer form {
+    padding-left: 332px;
+    text-align: justify;
+}
+
+.contactForm input {
+    width: 450px;
+}
+
+.contactForm {
+    padding: 85px ;
+    padding-left: 80px;
+    
+}
+
+.box{
+    padding-right: 416px
+}
+.checkbox{
+    padding-right: 416px;
+}
+
+.contactForm button {
+
+    background-color: ghostwhite;
+    color: black;
+    box-shadow: 2px 3px;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.5em 1em;
+    margin: 15px;
+    margin-left: 0px;
+    transition: transform 0.2s ease 0s;
+}
+
+.contactForm button:hover {
+    transform: translateY(-5px);
+}
+
+.contactForm label{
+    text-shadow: 1px 1px black;
+}
+
+.form h1{
+    padding-left: 400px;
+}
+
+
+/* resume */
+
+.resumepage{
+    padding: 0px;
+    padding-left: 550px;
+    padding-top: 150px;
+
+}
+
+.resumepage button{
+    color: black;
+    background-color: white;
+    transition: transform 0.2s ease 0s;
+    background-color: ghostwhite;
+    color: black;
+    box-shadow: 2px 3px;
+    font-size: 1rem;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.resumepage button:hover{
+    transform: translateY(-5px);
+}
+
+/* INTRO */
+
+.skillset li{
+    font-size: 25px;
+    text-shadow: 2px 2px black;
+    color: white;
+}
+
+/* hamburger menu */
+.hammenu ham{
+position: absolute;
+top: 20px;
+right: 20px;
+cursor: pointer;
+}
+
+.sidebargo{
+    position: absolute;
+    transform: translate(-787px, 0);
+    
+} 
+
+
+@media screen and (max-width:600px) 
+{
+  .body{
+    
+  }  
+}
